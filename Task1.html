@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+    <div>
+        <h1>Store Your Data</h1>
+        <form id="mainform">
+            <table>
+                <tr>
+                    <td>Your Name </td>
+                    <td class="data"><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Your Email </td>
+                    <td class="data"><input type="email" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Your Phone NO. </td>
+                    <td class="data"><input type="number" name="name" required maxlength="11"required></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" class="submit">
+            <input type="reset" name="" value="Reset" class="reset">
+        </form>
+    </div>
+
+    <div class="div2">
+        <p>Data You Entered</p>
+        <ul id="listofContaint"></ul>
+    </div>
+    
+    <div>
+        <table id="newData">
+                    <tr id="heading">
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Email
+                        </td>
+                        <td colspan="2">
+                            phone
+                        </td>
+                    </tr>
+
+            </table>
+    </div>
+    <script src="Task1.js"></script>
+</body>
+</html>
